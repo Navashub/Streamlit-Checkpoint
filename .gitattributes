@@ -1,2 +1,4 @@
 * text=auto
 *.csv text eol=lf
+app/model.pkl filter=lfs diff=lfs merge=lfs -text
+data/Expresso_churn_dataset.csv filter=lfs diff=lfs merge=lfs -text
